@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCrypt", "DataCrypt\DataCrypt.csproj", "{32512479-76AF-4724-AB3C-32DAF4180888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCrypt_Con", "FileCrypt_Con\FileCrypt_Con.csproj", "{42463AAF-456F-8C4A-D8DF-D71545E4702E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32512479-76AF-4724-AB3C-32DAF4180888} = {32512479-76AF-4724-AB3C-32DAF4180888}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCrypt_Tests", "DataCrypt_Tests\DataCrypt_Tests.csproj", "{6E95935D-3C42-40A9-A3CF-DBD37DC790EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32512479-76AF-4724-AB3C-32DAF4180888} = {32512479-76AF-4724-AB3C-32DAF4180888}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32512479-76AF-4724-AB3C-32DAF4180888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32512479-76AF-4724-AB3C-32DAF4180888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32512479-76AF-4724-AB3C-32DAF4180888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32512479-76AF-4724-AB3C-32DAF4180888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42463AAF-456F-8C4A-D8DF-D71545E4702E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42463AAF-456F-8C4A-D8DF-D71545E4702E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42463AAF-456F-8C4A-D8DF-D71545E4702E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42463AAF-456F-8C4A-D8DF-D71545E4702E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E95935D-3C42-40A9-A3CF-DBD37DC790EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E95935D-3C42-40A9-A3CF-DBD37DC790EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E95935D-3C42-40A9-A3CF-DBD37DC790EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E95935D-3C42-40A9-A3CF-DBD37DC790EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6C0E173-5D12-42A2-BB76-BA0247F2E44A}
+	EndGlobalSection
+EndGlobal
